@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default"; 
+@import "flowbite"; 
+@plugin "flowbite/plugin"; 
+@source "../node_modules/flowbite"; 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
