@@ -1,18 +1,9 @@
 <template>
-    <div id="app">
-        <HeaderPage />
-        <main>
-            
-        </main>
-    </div>
+    <router-view />
 </template>
-<script setup>
-import HeaderPage from './components/HeaderPage.vue'
+<script >
+export default {
+    name: "App",
+}
 </script>
 
-<style scoped>
-#app{
-    padding: 1cm;
-    margin: 0;
-}
-</style>
